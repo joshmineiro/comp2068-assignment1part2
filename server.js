@@ -1,3 +1,10 @@
+/*
+   file; server.js
+   author; Josh Mineiro
+   website; http://comp2068-assignment1part2-joshmineiro.azurewebsites.net
+   description; provides routing to web pages
+*/
+
 #!/usr/bin/env node
 
 /**

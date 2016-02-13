@@ -1,3 +1,10 @@
+/* 
+   file; index.js
+   author; Josh Mineiro
+   website; http://comp2068-assignment1part2-joshmineiro.azurewebsites.net
+   description; routes the client to each page as clicked on the navbar
+*/
+
 var express = require('express');
 var router = express.Router();
 
@@ -8,7 +15,7 @@ router.get('/', function(req, res, next) {
 
 /* GET about page. */
 router.get('/about', function(req, res, next) {
-  res.render('about', { title: 'About Me' });
+  res.render('about', { title: 'About' });
 });
 
 /* GET projects page. */

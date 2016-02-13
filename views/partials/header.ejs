@@ -1,3 +1,10 @@
+<!-- 
+   file; header.ejs
+   author; Josh Mineiro
+   website; http://comp2068-assignment1part2-joshmineiro.azurewebsites.net
+   description; header partial injected into each .ejs template page
+-->
+
 <!DOCTYPE html>
 <html>
 
@@ -38,40 +45,40 @@
                     <% if(title== "Home") { %>
 
                         <li class="active"><a href="/">Home</a></li>
-                        <li><a href="/products">Products</a></li>
+                        <li><a href="/projects">Projects</a></li>
                         <li><a href="/services">Services</a></li>
                         <li><a href="/about">About</a></li>
                         <li><a href="/contact">Contact</a></li>
 
 
-                        <%} else if(title=="About") {%>}
+                        <%} else if(title=="About") {%>
 
                             <li><a href="/">Home</a></li>
-                            <li><a href="/products">Products</a></li>
+                            <li><a href="/projects">Projects</a></li>
                             <li><a href="/services">Services</a></li>
                             <li class="active"><a href="/about">About</a></li>
                             <li><a href="/contact">Contact</a></li>
 
-                            <%} else if(title=="Products") {%>}
+                            <%} else if(title=="Projects") {%>
 
                                 <li><a href="/">Home</a></li>
-                                <li class="active"><a href="/products">Products</a></li>
+                                <li class="active"><a href="/projects">Projects</a></li>
                                 <li><a href="/services">Services</a></li>
                                 <li><a href="/about">About</a></li>
                                 <li><a href="/contact">Contact</a></li>
 
-                                <%} else if(title=="Services") {%>}
+                                <%} else if(title=="Services") {%>
 
                                     <li><a href="/">Home</a></li>
-                                    <li><a href="/products">Products</a></li>
+                                    <li><a href="/projects">Projects</a></li>
                                     <li class="active"><a href="/services">Services</a></li>
                                     <li><a href="/about">About</a></li>
                                     <li><a href="/contact">Contact</a></li>
 
-                                    <%} else if(title=="Contact") {%>}
+                                    <%} else if(title=="Contact") {%>
 
                                         <li><a href="/">Home</a></li>
-                                        <li><a href="/products">Products</a></li>
+                                        <li><a href="/projects">Projects</a></li>
                                         <li><a href="/services">Services</a></li>
                                         <li><a href="/about">About</a></li>
                                         <li class="active"><a href="/contact">Contact</a></li>

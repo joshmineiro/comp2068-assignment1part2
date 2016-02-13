@@ -1,3 +1,10 @@
+/*
+   file; app.js
+   author; Josh Mineiro
+   website; http://comp2068-assignment1part2-joshmineiro.azurewebsites.net
+   description; holds routing info and server side packages
+*/
+
 var express = require('express');
 var path = require('path');
 var favicon = require('serve-favicon');
